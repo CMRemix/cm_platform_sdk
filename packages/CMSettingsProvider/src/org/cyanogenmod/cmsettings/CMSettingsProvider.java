@@ -186,8 +186,6 @@ public class CMSettingsProvider extends ContentProvider {
                     CMSettings.Secure.DEFAULT_THEME_COMPONENTS);
             secureToCmSettingsMap.put(Settings.Secure.DEFAULT_THEME_PACKAGE,
                     CMSettings.Secure.DEFAULT_THEME_PACKAGE);
-            secureToCmSettingsMap.put(Settings.Secure.DEV_FORCE_SHOW_NAVBAR,
-                    CMSettings.Secure.DEV_FORCE_SHOW_NAVBAR);
             secureToCmSettingsMap.put(
                     Configuration.THEME_PKG_CONFIGURATION_PERSISTENCE_PROPERTY,
                             CMSettings.Secure.NAME_THEME_CONFIG);
