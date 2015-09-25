@@ -90,6 +90,16 @@ public final class CMHardwareManager {
     public static final int FEATURE_SUNLIGHT_ENHANCEMENT = 0x100;
 
     /**
+     * Sweep buttom part of the touch panel to wake up the device
+     */
+    public static final int FEATURE_SWEEP_TO_WAKE = 0x10000;
+
+    /**
+     * Sweep buttom part of the touch panel to sleep the device
+     */
+    public static final int FEATURE_SWEEP_TO_SLEEP = 0x20000;
+
+    /**
      * Double-tap the touch panel to wake up the device
      */
     public static final int FEATURE_TAP_TO_WAKE = 0x200;
@@ -130,6 +140,8 @@ public final class CMHardwareManager {
         FEATURE_HIGH_TOUCH_SENSITIVITY,
         FEATURE_KEY_DISABLE,
         FEATURE_SUNLIGHT_ENHANCEMENT,
+        FEATURE_SWEEP_TO_SLEEP,
+        FEATURE_SWEEP_TO_WAKE,
         FEATURE_TAP_TO_WAKE,
         FEATURE_TOUCH_HOVERING,
         FEATURE_AUTO_CONTRAST,
