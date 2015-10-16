@@ -588,6 +588,13 @@ public final class CMSettings {
          */
         public static final String QS_QUICK_PULLDOWN = "qs_quick_pulldown";
 
+        /**
+         * Whether to attach a queue to media notifications.
+         * 0 = 0ff, 1 = on
+         * @hide
+         */
+        public static final String NOTIFICATION_PLAY_QUEUE = "notification_play_queue";
+
         // endregion
     }
 
@@ -1351,24 +1358,6 @@ public final class CMSettings {
         // endregion
 
         // region Global Settings
-
-        /**
-         * The name of the device
-         *
-         * @hide
-         */
-        public static final String DEVICE_NAME = "device_name";
-
-        /**
-         * Defines global heads up toggle. One of HEADS_UP_OFF, HEADS_UP_ON.
-         *
-         * @hide
-         */
-        public static final String HEADS_UP_NOTIFICATIONS_ENABLED =
-                "heads_up_notifications_enabled";
-
-        /** @hide */ public static final int HEADS_UP_OFF = 0;
-        /** @hide */ public static final int HEADS_UP_ON = 1;
 
         // endregion
     }
