@@ -67,6 +67,7 @@ public class QSConstants {
     public static final String TILE_RESTARTUI = "restartui";
     public static final String TILE_KERNEL= "kernel_adiutor";
     public static final String TILE_SCREENRECORD= "screenrecord";
+    public static final String TILE_POWER = "power_menu";
     public static final String DYNAMIC_TILE_NEXT_ALARM = "next_alarm";
     public static final String DYNAMIC_TILE_IME_SELECTOR = "ime_selector";
     public static final String DYNAMIC_TILE_SU = "su";
@@ -109,7 +110,7 @@ public class QSConstants {
         STATIC_TILES_AVAILABLE.add(TILE_HEADS_UP);
         STATIC_TILES_AVAILABLE.add(TILE_AMBIENT_DISPLAY);
         STATIC_TILES_AVAILABLE.add(TILE_SYNC);
-//        STATIC_TILES_AVAILABLE.add(TILE_BATTERY_SAVER);
+        STATIC_TILES_AVAILABLE.add(TILE_BATTERY_SAVER);
         STATIC_TILES_AVAILABLE.add(TILE_SCREENSHOT);
         STATIC_TILES_AVAILABLE.add(TILE_SCREEN_OFF);
         STATIC_TILES_AVAILABLE.add(TILE_BRIGHTNESS);
@@ -123,7 +124,7 @@ public class QSConstants {
 	    STATIC_TILES_AVAILABLE.add(TILE_RESTARTUI);
 	    STATIC_TILES_AVAILABLE.add(TILE_KERNEL);
 	    STATIC_TILES_AVAILABLE.add(TILE_SCREENRECORD);
-        STATIC_TILES_AVAILABLE.add(TILE_BATTERY_SAVER);
+        STATIC_TILES_AVAILABLE.add(TILE_POWER);
 
         TILES_AVAILABLE.addAll(STATIC_TILES_AVAILABLE);
 
