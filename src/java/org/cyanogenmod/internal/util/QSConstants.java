@@ -61,7 +61,6 @@ public class QSConstants {
     public static final String TILE_EXPANDED_DESKTOP = "expanded_desktop";
     public static final String TILE_MUSIC = "music";
     public static final String TILE_REBOOT = "reboot";
-    public static final String TILE_THEMES = "themes";
     public static final String TILE_HWKEYS = "hw_keys";	
     public static final String TILE_APP_PICKER = "app_picker";
     public static final String TILE_NAVBAR = "navbar";
@@ -125,7 +124,6 @@ public class QSConstants {
         STATIC_TILES_AVAILABLE.add(TILE_EXPANDED_DESKTOP);
         STATIC_TILES_AVAILABLE.add(TILE_MUSIC);
         STATIC_TILES_AVAILABLE.add(TILE_REBOOT);
-	    STATIC_TILES_AVAILABLE.add(TILE_THEMES);
         STATIC_TILES_AVAILABLE.add(TILE_APP_PICKER);
 	    STATIC_TILES_AVAILABLE.add(TILE_NAVBAR);
 	    STATIC_TILES_AVAILABLE.add(TILE_HWKEYS);
