@@ -220,6 +220,12 @@ public class CMWeatherManagerService extends SystemService{
             }
             return null;
         }
+
+        @Override
+        public void cancelRequest(RequestInfo info) {
+            enforcePermission();
+            processCancelRequest(info);
+        }
     };
 
     private String getComponentLabel(ComponentName componentName) {
@@ -334,6 +340,15 @@ public class CMWeatherManagerService extends SystemService{
         }
     }
 
+    private void processCancelRequest(RequestInfo info) {
+        if (mIsWeatherProviderServiceBound) {
+            try {
+                mWeatherProviderService.cancelRequest(info);
+            } catch (RemoteException e) {
+            }
+        }
+    }
+
     private ServiceConnection mWeatherServiceProviderConnection = new ServiceConnection() {
         @Override
         public void onServiceConnected(ComponentName name, IBinder service) {
@@ -355,6 +370,7 @@ public class CMWeatherManagerService extends SystemService{
             mIsWeatherProviderServiceBound = false;
             //We can't talk to the current service anyway...
             mIsProcessingRequest = false;
+            mLastWeatherUpdateRequestTimestamp = -REQUEST_THRESHOLD_MILLIS;
             Slog.d(TAG, "Connection with " + name.flattenToString() + " has been closed");
         }
     };
