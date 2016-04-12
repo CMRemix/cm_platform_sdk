@@ -67,13 +67,26 @@ public class CMMetricsLogger extends MetricsLogger {
     public static final int TILE_BATTERY_SAVER = BASE + 40;
     public static final int TILE_CAFFEINE = BASE + 41;
 
-    // Custom
+    // CMRemix
     public static final int TILE_BRIGHTNESS = BASE + 42;
     public static final int TILE_EXPANDED_DESKTOP = BASE + 43;
     public static final int TILE_SCREEN_OFF = BASE + 44;
     public static final int TILE_SCREENSHOT = BASE + 45;
-    public static final int CUSTOM_SETTINGS = BASE + 46;
-    public static final int LOCKSCREEN_WEATHER_SETTINGS = BASE + 47;
+    public static final int CMREMIX_SETTINGS = BASE + 46;
 
-    public static final int WEATHER_SETTINGS = BASE + 48;
+    public static final int ACTION_FRAGMENT = BASE + 47;
+    public static final int AMBIENT_SETTINGS = BASE + 48;
+    public static final int BATTERY_BAR = BASE + 49;
+    public static final int FLING_SETTINGS = BASE + 50;
+    public static final int INPUT_METHODS_SETTINGS = BASE + 51;
+    public static final int LOCKSCREEN_SETTINGS = BASE + 52;
+    public static final int LOCK_CLOCK = BASE + 53;
+    public static final int LOCKSCREEN_SHORTCUT_FRAGMENT = BASE + 54;
+    public static final int LOCKSCREEN_WALLPAPER = BASE + 55;
+    public static final int LOCKSCREEN_WEATHER_SETTINGS = BASE + 56;
+    public static final int NAVIGATION_BAR = BASE + 57;
+    public static final int NETWORK_TRAFFIC = BASE + 58;
+    public static final int PULSE_SETTINGS = BASE + 59;
+    public static final int SMARTBAR_SETTINGS = BASE + 60;
+    public static final int WEATHER_SETTINGS = BASE + 61;
 }
