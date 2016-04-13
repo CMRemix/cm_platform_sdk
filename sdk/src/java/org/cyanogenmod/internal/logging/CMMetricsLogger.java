@@ -89,4 +89,5 @@ public class CMMetricsLogger extends MetricsLogger {
     public static final int PULSE_SETTINGS = BASE + 59;
     public static final int SMARTBAR_SETTINGS = BASE + 60;
     public static final int WEATHER_SETTINGS = BASE + 61;
+    public static final int TILE_NAVBAR = BASE + 62;
 }
