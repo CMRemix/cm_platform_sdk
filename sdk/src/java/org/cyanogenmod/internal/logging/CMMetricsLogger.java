@@ -68,4 +68,27 @@ public class CMMetricsLogger extends MetricsLogger {
     public static final int TILE_THEMES = BASE + 41;
     public static final int TILE_CAFFEINE = BASE + 42;
     public static final int WEATHER_SETTINGS = BASE + 43;
+
+    // CMRemix
+    public static final int TILE_APP_CIRCLE_BAR = BASE + 44;
+    public static final int TILE_APP_PICKER = BASE + 45;
+    public static final int TILE_APP_SIDE_BAR = BASE + 46;
+    public static final int TILE_BRIGHTNESS = BASE + 47;
+    public static final int TILE_EXPANDED_DESKTOP = BASE + 48;
+    public static final int TILE_GESTURE_ANYWHERE = BASE + 49;
+    public static final int TILE_HARDWARE_KEYS = BASE + 50;
+    public static final int TILE_KERNEL_ADIUTER = BASE + 51;
+    public static final int TILE_KILL_APP = BASE + 52;
+    public static final int TILE_LTE = BASE + 53;
+    public static final int TILE_MUSIC = BASE + 54;
+    public static final int TILE_NAVBAR = BASE + 55;
+    public static final int TILE_PIE = BASE + 56;
+    public static final int TILE_POWER_MENU = BASE + 57;
+    public static final int TILE_REBOOT = BASE + 58;
+    public static final int TILE_SCREEN_OFF = BASE + 59;
+    public static final int TILE_SCREEN_RECORD = BASE + 60;
+    public static final int TILE_SCREENSHOT = BASE + 61;
+    public static final int TILE_SELINUX = BASE + 62;
+    public static final int TILE_SOUND = BASE + 63;
+    public static final int TILE_SYSTEM_UI_RESTART = BASE + 64;
 }
