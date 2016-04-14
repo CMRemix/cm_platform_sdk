@@ -69,7 +69,7 @@ public class CMMetricsLogger extends MetricsLogger {
     public static final int TILE_CAFFEINE = BASE + 42;
     public static final int WEATHER_SETTINGS = BASE + 43;
 
-    // CMRemix
+    // CMRemix Tiles
     public static final int TILE_APP_CIRCLE_BAR = BASE + 44;
     public static final int TILE_APP_PICKER = BASE + 45;
     public static final int TILE_APP_SIDE_BAR = BASE + 46;
@@ -91,4 +91,50 @@ public class CMMetricsLogger extends MetricsLogger {
     public static final int TILE_SELINUX = BASE + 62;
     public static final int TILE_SOUND = BASE + 63;
     public static final int TILE_SYSTEM_UI_RESTART = BASE + 64;
+
+    // CMRemix Settings
+    public static final int ACTION_FRAGMENT = BASE + 65;
+    public static final int AMBIENT_SETTINGS = BASE + 66;
+    public static final int ANIMATION_CONTROL = BASE + 67;
+    public static final int APP_CIRCLE_BAR = BASE + 68;
+    public static final int APP_SIDE_BAR = BASE + 69;
+    public static final int BATTERY_BAR = BASE + 70;
+    public static final int BREATHING_NOTIFICATIONS = BASE + 71;
+    public static final int CARRIER_LABEL + 72;
+    public static final int CLOCK_SETTINGS = BASE + 73;
+    public static final int CMREMIX_TWEAKS = BASE + 74;
+    public static final int CMREMIX_UI_SETTINGS = BASE + 75;
+    public static final int CUSTOM_LOGO = BASE + 76;
+    public static final int FLING_SETTINGS = BASE + 77;
+    public static final int GESTURE_ANYWHERE_SETTINGS = BASE + 78;
+    public static final int INPUT_METHODS_SETTINGS = BASE + 79;
+    public static final int KEYBOARD_ANIMATION_INTERFACE_SETTINGS = BASE + 80;
+    public static final int LOCK_CLOCK = BASE + 81;
+    public static final int LOCK_SCREEN_COLORS = BASE + 82;
+    public static final int LOCK_SCREEN_SETTINGS = BASE + 83;
+    public static final int LOCKSCREEN_SHORTCUT_FRAGMENT = BASE + 84;
+    public static final int LOCKSCREEN_WALLPAPER = BASE + 85;
+    public static final int LOCK_SCREEN_WEATHER_SETTINGS = BASE + 86;
+    public static final int NAVIGATION_BAR = BASE + 87;
+    public static final int NETWORK_TRAFFIC = BASE + 88;
+    public static final int NOTIFICATION_COLOR_SETTINGS = BASE + 89;
+    public static final int NOTIFICATION_PANEL = BASE + 90;
+    public static final int OMNI_SWITCH = BASE + 91;
+    public static final int PIE_COLOR = BASE + 92;
+    public static final int PIE_CONTROL = BASE + 93;
+    public static final int PIE_TARGETS = BASE + 94;
+    public static final int PULSE_SETTINGS = BASE + 95;
+    public static final int QS_COLORS = BASE + 96;
+    public static final int QS_PANEL = BASE + 97;
+    public static final int QS_VIBRATE = BASE + 98;
+    public static final int RECENT_APP_SIDE_BAR = BASE + 99;
+    public static final int RECENT_APP_SIDE_BAR_FRAGMENT = BASE + 100;
+    public static final int RECENTS_PANEL_SETTINGS = BASE + 101;
+    public static final int RECENTS_STYLES + 102;
+    public static final int SCREEN_AND_ANIMATIONS = BASE + 103;
+    public static final int SMARTBAR_SETTINGS = BASE + 104;
+    public static final int SOUND_SETTINGS = BASE + 105;
+    public static final int STATUS_BAR_COLORS = BASE + 106;
+    public static final int STATUS_BAR_WEATHER = BASE + 107;
+    public static final int VOLUME_STEP = BASE + 108;
 }
