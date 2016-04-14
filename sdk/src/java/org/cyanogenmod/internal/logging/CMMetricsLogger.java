@@ -100,7 +100,7 @@ public class CMMetricsLogger extends MetricsLogger {
     public static final int APP_SIDE_BAR = BASE + 69;
     public static final int BATTERY_BAR = BASE + 70;
     public static final int BREATHING_NOTIFICATIONS = BASE + 71;
-    public static final int CARRIER_LABEL + 72;
+    public static final int CARRIER_LABEL = BASE + 72;
     public static final int CLOCK_SETTINGS = BASE + 73;
     public static final int CMREMIX_TWEAKS = BASE + 74;
     public static final int CMREMIX_UI_SETTINGS = BASE + 75;
@@ -130,7 +130,7 @@ public class CMMetricsLogger extends MetricsLogger {
     public static final int RECENT_APP_SIDE_BAR = BASE + 99;
     public static final int RECENT_APP_SIDE_BAR_FRAGMENT = BASE + 100;
     public static final int RECENTS_PANEL_SETTINGS = BASE + 101;
-    public static final int RECENTS_STYLES + 102;
+    public static final int RECENTS_STYLES = BASE + 102;
     public static final int SCREEN_AND_ANIMATIONS = BASE + 103;
     public static final int SMARTBAR_SETTINGS = BASE + 104;
     public static final int SOUND_SETTINGS = BASE + 105;
