@@ -139,4 +139,5 @@ public class CMMetricsLogger extends MetricsLogger {
     public static final int STATUS_BAR_COLORS = BASE + 106;
     public static final int STATUS_BAR_WEATHER = BASE + 107;
     public static final int VOLUME_STEP = BASE + 108;
+    public static final int FLOATING_WINDOWS = BASE + 111;
 }
