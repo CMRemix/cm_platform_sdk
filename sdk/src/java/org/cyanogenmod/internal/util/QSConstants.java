@@ -60,13 +60,13 @@ public class QSConstants {
     public static final String TILE_EXPANDED_DESKTOP = "expanded_desktop";
     public static final String TILE_MUSIC = "music";
     public static final String TILE_REBOOT = "reboot";
-    public static final String TILE_HWKEYS = "hw_keys";	
+    public static final String TILE_HWKEYS = "hw_keys";
     public static final String TILE_APP_PICKER = "app_picker";
     public static final String TILE_NAVBAR = "navbar";
     public static final String TILE_PIE = "pie";
     public static final String TILE_APPCIRCLEBAR = "appcirclebar";
     public static final String TILE_APPSIDEBAR = "appsidebar";
-    public static final String TILE_RESTARTUI = "restartui";
+    public static final String TILE_RESTART_SYSTEMUI = "restart_systemui";
     public static final String TILE_GESTUREANYWHERE = "gesture_anywhere";
     public static final String TILE_KERNEL= "kernel_adiutor";
     public static final String TILE_SELINUX= "selinux";	
@@ -136,7 +136,7 @@ public class QSConstants {
 	    STATIC_TILES_AVAILABLE.add(TILE_PIE);
 	    STATIC_TILES_AVAILABLE.add(TILE_APPCIRCLEBAR);
 	    STATIC_TILES_AVAILABLE.add(TILE_APPSIDEBAR);
-	    STATIC_TILES_AVAILABLE.add(TILE_RESTARTUI);
+        STATIC_TILES_AVAILABLE.add(TILE_RESTART_SYSTEMUI);
 	    STATIC_TILES_AVAILABLE.add(TILE_KERNEL);
         STATIC_TILES_AVAILABLE.add(TILE_SELINUX);
 	    STATIC_TILES_AVAILABLE.add(TILE_SCREENRECORD);
