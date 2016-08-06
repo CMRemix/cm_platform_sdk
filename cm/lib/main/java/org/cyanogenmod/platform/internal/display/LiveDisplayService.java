@@ -40,13 +40,11 @@ import android.os.IBinder;
 import android.os.PowerManagerInternal;
 import android.os.Process;
 import android.os.UserHandle;
-import android.util.Log;
 import android.view.Display;
 
 import com.android.internal.util.ArrayUtils;
 import com.android.server.LocalServices;
 import com.android.server.ServiceThread;
-import com.android.server.SystemService;
 import com.android.server.pm.UserContentObserver;
 import com.android.server.twilight.TwilightListener;
 import com.android.server.twilight.TwilightManager;
@@ -153,6 +151,11 @@ public class LiveDisplayService extends CMSystemService {
     }
 
     @Override
+    public boolean isCoreService() {
+        return false;
+    }
+
+    @Override
     public void onStart() {
         publishBinderService(CMContextConstants.CM_LIVEDISPLAY_SERVICE, mBinder);
     }
@@ -188,7 +191,8 @@ public class LiveDisplayService extends CMSystemService {
             mConfig = new LiveDisplayConfig(capabilities, defaultMode,
                     mCTC.getDefaultDayTemperature(), mCTC.getDefaultNightTemperature(),
                     mOMC.getDefaultAutoOutdoorMode(), mDHC.getDefaultAutoContrast(),
-                    mDHC.getDefaultCABC(), mDHC.getDefaultColorEnhancement());
+                    mDHC.getDefaultCABC(), mDHC.getDefaultColorEnhancement(),
+                    mCTC.getColorTemperatureRange(), mCTC.getColorBalanceRange());
 
             // listeners
             mDisplayManager = (DisplayManager) getContext().getSystemService(

@@ -24,7 +24,8 @@
 
     <protected-broadcast android:name="cyanogenmod.intent.action.SCREEN_CAMERA_GESTURE" />
     <protected-broadcast android:name="cyanogenmod.intent.action.INITIALIZE_CM_HARDWARE" />
-    <protected-broadcast android:name="cyanogenmod.intent.action.ACTION_AUDIO_SESSIONS_CHANGED" />
+    <protected-broadcast android:name="cyanogenmod.intent.action.ACTION_AUDIO_SESSIONS_CHANGED"
+                         android:permission="cyanogenmod.permission.MANAGE_AUDIO_SESSIONS" />
 
     <!-- Must be required by an, to ensure that only the system can bind to it.
          @hide -->
@@ -220,6 +221,12 @@
                 android:description="@string/permdesc_observe_audio_sessions"
                 android:protectionLevel="normal"/>
 
+    <!-- Allows an application to post system-wide changes to audio sessions
+         @hide -->
+    <permission android:name="cyanogenmod.permission.MANAGE_AUDIO_SESSIONS"
+                android:label="@string/permlab_manage_audio_sessions"
+                android:description="@string/permdesc_manage_audio_sessions"
+                android:protectionLevel="signature|privileged"/>
 
     <!-- Allows an application to access the weather service.
         <p>Although the protection is normal, this permission should be required ONLY by those apps
@@ -235,6 +242,16 @@
                 android:description="@string/permdesc_manageLiveDisplay"
                 android:icon="@drawable/ic_launcher_cyanogenmod"
                 android:protectionLevel="normal" />
+
+    <!-- Not meant for third parties. Allows brokering core services to other
+         processes @hide -->
+    <permission android:name="cyanogenmod.permission.BIND_CORE_SERVICE"
+                android:protectionLevel="signature|privileged" />
+
+    <!-- Not meant for third parties.
+         @hide -->
+    <permission android:name="cyanogenmod.permission.SEND_PROTECTED_THEME_BROADCAST"
+                android:protectionLevel="signature|privileged" />
 
     <application android:process="system"
                  android:persistent="true"
