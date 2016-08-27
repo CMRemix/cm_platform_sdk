@@ -93,6 +93,7 @@ public class CMMetricsLogger extends MetricsLogger {
     public static final int TILE_RESTART_SYSTEM_UI = BASE + 64;
     public static final int TILE_FLOATING_WINDOWS = BASE + 109;
     public static final int TILE_PULSE = BASE + 110;
+    public static final int TILE_HALO = BASE + 112;
 
     // CMRemix Settings
     public static final int ACTION_FRAGMENT = BASE + 65;
